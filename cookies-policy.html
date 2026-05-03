@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookies Policy — Legado Noble Antigüedades</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background-color: #121212; margin: 0; padding: 0; font-family: "Arial", sans-serif; }
+    .paper { width: 850px; margin: 40px auto; background: #FFFFFF; padding: 80px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); position: relative; }
+    .lang-switcher { position: absolute; top: 30px; right: 40px; }
+    .lang-switcher button { background: none; border: 1px solid #E0E0E0; padding: 5px 12px; margin-left: 5px; cursor: pointer; font-family: "Arial", sans-serif; font-size: 12px; color: #1A1A1A; }
+    .lang-switcher button.active { background: #000; color: #FFF; border-color: #000; }
+    .back-btn { display: inline-block; margin-bottom: 30px; font-family: "Arial", sans-serif; font-size: 12px; color: #666; text-decoration: none; border: 1px solid #E0E0E0; padding: 8px 20px; }
+    .back-btn:hover { background: #F5F5F5; }
+    h1 { font-family: "Times New Roman", serif; font-size: 24px; font-weight: 700; text-transform: uppercase; text-align: center; color: #000000; margin-bottom: 40px; }
+    h2 { font-family: "Arial", sans-serif; font-size: 16px; font-weight: 700; color: #000000; margin-top: 25px; margin-bottom: 15px; }
+    p { font-family: "Arial", sans-serif; font-size: 14px; line-height: 1.6; text-align: justify; color: #1A1A1A; margin-bottom: 12px; }
+    ul { margin-left: 25px; margin-bottom: 15px; }
+    li { font-family: "Arial", sans-serif; font-size: 14px; line-height: 1.6; color: #1A1A1A; margin-bottom: 6px; }
+    strong { font-weight: 700; color: #000; }
+    .doc-footer { margin-top: 60px; padding-top: 25px; border-top: 1px solid #E0E0E0; font-family: "Arial", sans-serif; font-size: 12px; color: #666; text-align: center; }
+    @media (max-width: 900px) {
+      .paper { width: 95%; padding: 40px 25px; margin: 20px auto; }
+      h1 { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="paper">
+    <div class="lang-switcher">
+      <button class="active" onclick="switchLang('ua', this)">UA</button>
+      <button onclick="switchLang('en', this)">EN</button>
+    </div>
+
+    <a href="/" class="back-btn">&larr; <span data-key="back">На головну</span></a>
+
+    <h1 data-key="title">Політика використання файлів cookie</h1>
+
+    <h2 data-key="h1">1. Що таке файли cookie?</h2>
+    <p data-key="p1">Файли cookie — це невеликі текстові файли, які зберігаються на вашому пристрої під час відвідування нашого сайту. Вони допомагають нам розпізнати ваш пристрій і зберегти інформацію про ваші вподобання, забезпечуючи стабільну роботу кошика та персоналізацію досвіду в нашій галереї.</p>
+
+    <h2 data-key="h2">2. Типи файлів cookie, які ми використовуємо</h2>
+    <ul>
+      <li data-key="li1"><strong>Обов'язкові:</strong> Необхідні для функціонування сайту. Вони забезпечують безпечний вхід, роботу кошика, процес оплати та збереження ваших налаштувань приватності. Без них сайт не зможе працювати коректно.</li>
+      <li data-key="li2"><strong>Аналітичні:</strong> Допомагають нам зрозуміти, як ви взаємодієте з нашою галереєю (наприклад, через Google Analytics). Це дозволяє нам покращувати навігацію та структуру сайту.</li>
+      <li data-key="li3"><strong>Функціональні:</strong> Запам'ятовують ваш вибір (наприклад, мову сайту — UA або EN), щоб зробити ваші наступні візити зручнішими.</li>
+      <li data-key="li4"><strong>Маркетингові:</strong> Використовуються для відстеження ефективності рекламних кампаній на таких платформах, як Instagram, TikTok або Pinterest.</li>
+    </ul>
+
+    <h2 data-key="h3">3. Керування файлами cookie</h2>
+    <p data-key="p2">Ми поважаємо ваш вибір, тому:</p>
+    <ul>
+      <li data-key="li5">Всі некрайні необхідні файли cookie заблоковані за замовчуванням до моменту вашої явної згоди.</li>
+      <li data-key="li6">Ви можете змінити свої налаштування в будь-який час через наш банер або налаштування браузера.</li>
+    </ul>
+
+    <h2 data-key="h4">4. Контактна інформація</h2>
+    <p data-key="p3">Якщо у вас виникли запитання щодо нашої політики використання файлів cookie, будь ласка, звертайтеся:</p>
+    <ul>
+      <li data-key="li7"><strong>Компанія:</strong> Legado Noble Antigüedades S.L.</li>
+      <li data-key="li8"><strong>Адреса:</strong> Calle de los Artesanos 18, 28004 Madrid, Spain.</li>
+      <li data-key="li9"><strong>Email:</strong> support@legadonoble.com</li>
+    </ul>
+
+    <div class="doc-footer">
+      Legado Noble Antigüedades S.L., CIF: B-12345678, Madrid, Spain.
+    </div>
+  </div>
+
+  <script>
+    const translations = {
+      ua: {
+        back: 'На головну',
+        title: 'Політика використання файлів cookie',
+        h1: '1. Що таке файли cookie?',
+        p1: 'Файли cookie — це невеликі текстові файли, які зберігаються на вашому пристрої під час відвідування нашого сайту. Вони допомагають нам розпізнати ваш пристрій і зберегти інформацію про ваші вподобання, забезпечуючи стабільну роботу кошика та персоналізацію досвіду в нашій галереї.',
+        h2: '2. Типи файлів cookie, які ми використовуємо',
+        li1: '<strong>Обов\'язкові:</strong> Необхідні для функціонування сайту. Вони забезпечують безпечний вхід, роботу кошика, процес оплати та збереження ваших налаштувань приватності. Без них сайт не зможе працювати коректно.',
+        li2: '<strong>Аналітичні:</strong> Допомагають нам зрозуміти, як ви взаємодієте з нашою галереєю (наприклад, через Google Analytics). Це дозволяє нам покращувати навігацію та структуру сайту.',
+        li3: '<strong>Функціональні:</strong> Запам\'ятовують ваш вибір (наприклад, мову сайту — UA або EN), щоб зробити ваші наступні візити зручнішими.',
+        li4: '<strong>Маркетингові:</strong> Використовуються для відстеження ефективності рекламних кампаній на таких платформах, як Instagram, TikTok або Pinterest.',
+        h3: '3. Керування файлами cookie',
+        p2: 'Ми поважаємо ваш вибір, тому:',
+        li5: 'Всі некрайні необхідні файли cookie заблоковані за замовчуванням до моменту вашої явної згоди.',
+        li6: 'Ви можете змінити свої налаштування в будь-який час через наш банер або налаштування браузера.',
+        h4: '4. Контактна інформація',
+        p3: 'Якщо у вас виникли запитання щодо нашої політики використання файлів cookie, будь ласка, звертайтеся:',
+        li7: '<strong>Компанія:</strong> Legado Noble Antigüedades S.L.',
+        li8: '<strong>Адреса:</strong> Calle de los Artesanos 18, 28004 Madrid, Spain.',
+        li9: '<strong>Email:</strong> support@legadonoble.com'
+      },
+      en: {
+        back: 'Back to home',
+        title: 'Cookie Policy',
+        h1: '1. What are cookies?',
+        p1: 'Cookies are small text files that are stored on your device when you visit our website. They help us recognise your device and save information about your preferences, ensuring stable shopping cart performance and personalisation of your experience in our gallery.',
+        h2: '2. Types of cookies we use',
+        li1: '<strong>Necessary:</strong> Essential for the functioning of the site. They provide secure login, shopping cart operation, payment processing, and saving your privacy settings. Without them, the site cannot function correctly.',
+        li2: '<strong>Analytical:</strong> Help us understand how you interact with our gallery (e.g., through Google Analytics). This allows us to improve navigation and site structure.',
+        li3: '<strong>Functional:</strong> Remember your choices (e.g., site language — UA or EN) to make your subsequent visits more convenient.',
+        li4: '<strong>Marketing:</strong> Used to track the effectiveness of advertising campaigns on platforms such as Instagram, TikTok, or Pinterest.',
+        h3: '3. Managing cookies',
+        p2: 'We respect your choice, therefore:',
+        li5: 'All non-essential cookies are blocked by default until you give your explicit consent.',
+        li6: 'You can change your settings at any time via our banner or browser settings.',
+        h4: '4. Contact information',
+        p3: 'If you have any questions regarding our cookie policy, please contact us:',
+        li7: '<strong>Company:</strong> Legado Noble Antigüedades S.L.',
+        li8: '<strong>Address:</strong> Calle de los Artesanos 18, 28004 Madrid, Spain.',
+        li9: '<strong>Email:</strong> support@legadonoble.com'
+      }
+    };
+
+    function switchLang(lang, btn) {
+      var t = translations[lang];
+      for (var key in t) {
+        var els = document.querySelectorAll('[data-key="' + key + '"]');
+        els.forEach(function(el) { el.innerHTML = t[key]; });
+      }
+      document.querySelectorAll('.lang-switcher button').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+    }
+  </script>
+</body>
+</html>
