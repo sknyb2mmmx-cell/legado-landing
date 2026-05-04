@@ -1375,16 +1375,16 @@ function switchLegalLang(page, lang, btn) {
 }
 
 // Footer legal links open modals instead of external pages
-document.querySelectorAll('a[href="/privacy-policy.html"]').forEach(a => {
+document.querySelectorAll('a[href="privacy-policy.html"]').forEach(a => {
   a.onclick = function(e) { e.preventDefault(); openLegal('legal-privacy'); };
 });
-document.querySelectorAll('a[href="/terms-conditions.html"]').forEach(a => {
+document.querySelectorAll('a[href="terms-conditions.html"]').forEach(a => {
   a.onclick = function(e) { e.preventDefault(); openLegal('legal-terms'); };
 });
-document.querySelectorAll('a[href="/cookies-policy.html"]').forEach(a => {
+document.querySelectorAll('a[href="cookies-policy.html"]').forEach(a => {
   a.onclick = function(e) { e.preventDefault(); openLegal('legal-cookies'); };
 });
-document.querySelectorAll('a[href="/shipping-returns.html"]').forEach(a => {
+document.querySelectorAll('a[href="shipping-returns.html"]').forEach(a => {
   a.onclick = function(e) { e.preventDefault(); openLegal('legal-shipping'); };
 });
 
