@@ -1346,15 +1346,15 @@ setInterval(() => { if (!document.hidden) nextReview(); }, 5000);
 
 // ==================== COOKIE CONSENT ====================
 function acceptCookies() {
-  localStorage.setItem('cookieConsent', 'true');
+  sessionStorage.setItem('cookieConsent', 'true');
   document.getElementById('cookie-banner').style.display = 'none';
 }
 function resetCookies() {
-  localStorage.removeItem('cookieConsent');
+  sessionStorage.removeItem('cookieConsent');
   window.location.reload();
 }
 function showCookieBanner() {
-  if (!localStorage.getItem('cookieConsent')) {
+  if (!sessionStorage.getItem('cookieConsent')) {
     document.getElementById('cookie-banner').style.display = 'block';
   }
 }
